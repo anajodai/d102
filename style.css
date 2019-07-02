@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+}
+
+nav{
+    background-color: #fe7a35;
+    height: 50px;
+}
+
+a{
+    color: blue;
+    text-decoration: none;
+    font-size: 14pt;
+}

@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+}
+
+nav{
+    align-items: center;
+    background-color: #fe7a35;
+    display: flex;
+    height: 50px;
+    justify-content: space-evenly;
+    
+}
+
+a{
+    color: rgb(70, 70, 129);
+    text-decoration: none;
+    font-size: 22pt;
+    font-family: 'VT323', monospace;
+}
+
+header{
+    background-image: url(images/kages2.jpg);
+    background-size: cover;
+    height: 400px;
+
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(148, 97, 56);
+}
+
+div{
+    width: 40%;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+div ul{
+    list-style-image: url(images/ninja.png);
+}
+
+ul li:nth-child(odd){
+    color: white;
+
+}
+
+ h2{
+    font-family: 'VT323', monospace;
+
+}
+
+input::placeholder{
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+}
+
+input:focus{
+    background-color: rgb(223, 223, 223)
+}
+
+h3{
+    font-family: 'VT323', monospace;
+    font-size: 26px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe7a35
+}
+
+button {
+    font-family: 'VT323', monospace;
+    font-size: 18px;
+}
+
+button:focus{
+    background-color: rgb(158, 197, 184)
+}
+
+footer img {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+} 
+
+.face {
+    height: 40px;
+    align-items: center;
+}
+
+.tt{
+    height: 25px;
+}
